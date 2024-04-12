@@ -28,6 +28,7 @@ class _VideoPlayerPageState extends State<VideoPlayerPage> {
   }
   @override
   Widget build(BuildContext context) {
+    print("Test for commit");
     return Scaffold(
       body: isLoading? Center(child: CircularProgressIndicator(),):Column(
         mainAxisSize: MainAxisSize.max,
